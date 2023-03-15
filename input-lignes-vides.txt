@@ -1,0 +1,20 @@
+
+Début
+-----------------
+pensive_wing
+   
+Stop HDP Sandbox
+When you want to stop/shutdown your HDP sandbox, run the following commands:
+
+docker stop sandbox-hdp
+docker stop pensive_wing
+
+Restart HDP Sandbox
+When you want to re-start your sandbox, run the following commands:
+
+docker start sandbox-hdp
+docker start pensive_wing
+*****************************
+docker run --name sandbox-hdp --hostname "sandbox-hdp.hortonworks.com" --privileged -d `
+ 
+FIN
